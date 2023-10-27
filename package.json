@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/HaTToek/open_source_hw#readme",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^27.2.5"
   }
 }
