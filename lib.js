@@ -29,6 +29,9 @@ function prime(num) {
 }
 
 function fact(num) {
+    if(num >= 15){
+        console.log("please input less then 15")
+    }
     let result = num;
     for(let i = num-1; i>0; i--){
         result *= i;
