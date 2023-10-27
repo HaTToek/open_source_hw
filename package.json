@@ -1,0 +1,22 @@
+{
+  "name": "open_source_hw",
+  "version": "0.0.1",
+  "description": "test",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "calc" : "./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaTToek/open_source_hw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaTToek/open_source_hw/issues"
+  },
+  "homepage": "https://github.com/HaTToek/open_source_hw#readme"
+}
