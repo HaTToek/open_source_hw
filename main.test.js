@@ -15,7 +15,7 @@ test("Insufficient params", () => {
 
 test("Wrong command", () => {
     const main = spawn("node", ["main.js", "sum", "1", "2", "3"]);
-    const outputs = [];
+    const outputs =[];
     main.stdout.on("data", (output) => {
         outputs.push(output);
     });
