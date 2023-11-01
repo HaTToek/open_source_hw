@@ -9,7 +9,7 @@ function prime(num) {
 
     if(num%1 !== 0){
         console.log("not input positive integers")
-        return false;
+        process.exit(-1)
     }
 
     if( num % 2 === 0) { 
@@ -31,6 +31,7 @@ function prime(num) {
 function fact(num) {
     if(num >= 15){
         console.log("please input less then 15")
+        process.exit(-1)
     }
     let result = num;
     for(let i = num-1; i>0; i--){
